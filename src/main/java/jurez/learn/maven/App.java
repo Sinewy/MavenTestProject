@@ -1,6 +1,8 @@
 package jurez.learn.maven;
 
-import org.slf4j.*;
+import com.duzre.tester.SimpleTester;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Hello world!
@@ -18,5 +20,9 @@ public class App
         logger.info("Hey what's up from logger.");
         logger.info("Hey what's up from logger.");
         logger.info("Hey what's up from logger.");
+
+        SimpleTester simpleTester = new SimpleTester();
+        simpleTester.simpleTesterMethod("Hey man.. What's up?");
+
     }
 }
