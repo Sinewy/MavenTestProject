@@ -13,5 +13,7 @@ public class App
         System.out.println( "Hello World! Dzureee..." );
         Logger logger = LoggerFactory.getLogger(App.class);
         logger.info("Hey what's up from logger.");
+        logger.info("Hey what's up from logger.");
+        logger.info("Hey what's up from logger.");
     }
 }
